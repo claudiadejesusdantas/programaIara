@@ -27,7 +27,7 @@ Esta é uma plataforma desenvolvida como possível solução para os problemas d
 
 Como mostrado na matéria da uol, ['Aparência vale mais do que o cérebro':  elas relatam assédios pelo LinkedIn...](https://www.uol.com.br/universa/noticias/redacao/2021/08/20/a-rede-e-profissional-nao-de-flerte-elas-relatam-assedios-pelo-linkedin.htm?cmpid=copiaecola), um relatório da rede social Linkedin, mostrou que foram removidas mais 157 mil postagens contendo "assédio ou abuso", ou seja, muitas mulheres não se sentem seguras para se candidatar ou ser relevantes na plataforma, podendo não se destacarem no filtro dos recrutadores e perdendo oportunidades.
 
-Por isso essa plataforma trará um ambiente seguro para mulheres compartilharem vagas afirmativas, trocar cursos e conhecimento para seu crescimento profissional.
+Por isso essa plataforma trará um ambiente seguro para mulheres compartilharem vagas afirmativas dentro da área de tecnologia, trocar cursos e conhecimento para seu crescimento profissional.
 
 As usuárias devem ser capazes de:
 
