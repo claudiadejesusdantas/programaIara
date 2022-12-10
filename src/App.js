@@ -8,7 +8,7 @@ function App() {
     <div className='app'>
       <Header/> 
     {/* App body */}
-      {/* sidebar */}
+      {/* <Sidebar/> */}
       {/* feed */}
       {/* widgets */}
       <Footer/>
