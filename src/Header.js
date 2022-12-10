@@ -13,7 +13,7 @@ function Header() {
                     <img src='../assets/catmermaid_color2.png' alt='Gata com rabo de sereia.' />
                 </div>
                 <div className='header__left'>
-                    <h1>ProgramaIara</h1>
+                    <h1>Programa Iara</h1>
                 </div>
 
                 <div className='header__right'>
@@ -21,7 +21,6 @@ function Header() {
                     <HeaderOption Icon={LocalLibraryIcon} title={"Cursos"} />
                     <HeaderOption Icon={WorkOutlineIcon} title={"Vagas"} />
                     <HeaderOption Icon={PersonIcon} title={"Network"} />
-
                 </div>
 
 
