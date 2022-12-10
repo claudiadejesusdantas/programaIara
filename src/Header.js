@@ -21,6 +21,7 @@ function Header() {
                     <HeaderOption Icon={LocalLibraryIcon} title={"Cursos"} />
                     <HeaderOption Icon={WorkOutlineIcon} title={"Vagas"} />
                     <HeaderOption Icon={PersonIcon} title={"Network"} />
+                    <HeaderOption avatar="https://media.licdn.com/dms/image/C4D03AQElxiuhh_WKDA/profile-displayphoto-shrink_200_200/0/1659034585879?e=1675900800&v=beta&t=eWEXXHr2HisiPIyJQ7H3qLbh7S2uZU1p-i0Jcg4rOro" title='me'/>
                 </div>
 
 
