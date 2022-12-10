@@ -61,6 +61,7 @@ Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projet
 - Flexbox 
 - Biblioteca JS
 - [React Redux](https://react-redux.js.org/) 
+- [Material UI](https://mui.com/core/)
 
 # Introdução ao Create React App e Redux
 
