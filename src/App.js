@@ -10,6 +10,7 @@ function App() {
       {/* sidebar */}
       {/* feed */}
       {/* widgets */}
+      {/*Footer*/}
     </div>
   );
 }
