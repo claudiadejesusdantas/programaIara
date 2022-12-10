@@ -19,7 +19,6 @@ Esta é uma plataforma desenvolvida como possível solução para os problemas d
 - Agradecimentos (vazio)
 - Saber mais
 
-**Observação: exclua esta observação e atualize o sumário com base nas seções que você mantém.**
 
 ## Visão geral
 
