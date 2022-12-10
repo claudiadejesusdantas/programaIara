@@ -6,6 +6,7 @@
 
 ## Cores
 Fonte: (Paleta de Cores)[https://paletadecores.com/]
+
 rosaEscuro - #b9113f
 rosaClaro - #ffe3b3
 roxoClaro - #a8636e
