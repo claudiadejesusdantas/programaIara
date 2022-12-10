@@ -1,5 +1,34 @@
-.header > h1 {
+.header{
+    background-color: var(--azulClaro);
+    position: sticky;
+    top: 0;
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
     width: 100%;
-    background-color: var(--rosaClaro);
+    z-index: 999;
+}
+
+.header__left{
+    display: flex;
+}
+
+.header__left > img{
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header__left > h1 {
+    color: var(--rosaClaro);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 22px;
+}
+
+.header__right {
+    display: flex;
+    height: 10px;
 }

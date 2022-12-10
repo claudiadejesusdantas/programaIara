@@ -1,17 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-:root{
---rosaEscuro: #b9113f;
---rosaClaro: #ffe3b3;
---roxoClaro: #a8636e;
---roxoEscuro: #4d1d4d;
---azulClaro: #a1c1be;
---azulEscuro: #05676e;
---cinza: #59554e;
+:root {
+  --branco: #fafafa;
+  --rosaEscuro: #a8636e;
+  --rosaClaro: #ffe3b3;
+  --azulClaro: #a1c1be;
+  --azulEscuro: #05676e;
+  --verdeClaro: #6cbdb5;
+  --cinza: #59554e;
 }
 
 body {
