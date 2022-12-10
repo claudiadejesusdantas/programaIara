@@ -1,46 +1,173 @@
-# Getting Started with Create React App and Redux
+# ProgramaIara - Rede social para inclusão de vagas afirmativas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Esta é uma plataforma desenvolvida como possível solução para os problemas de derespeito enfrentados por mulheres na hora de procurar vagas de emprego.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+- Visão geral
+   - O desafio
+   - Captura de tela (vazio)
+   - Links (vazio)
+- Meu processo
+   - Construído com 
+   - Introdução ao Create React App e Redux
+   - O que aprendi (vazio)
+   - Desenvolvimento contínuo (vazio)
+   - Recursos úteis (vazio)
+- Autora
+- Agradecimentos (vazio)
+- Saber mais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Observação: exclua esta observação e atualize o sumário com base nas seções que você mantém.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Visão geral
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### O desafio
 
-### `npm run build`
+Como mostrado na matéria da uol, ['Aparência vale mais do que o cérebro':  elas relatam assédios pelo LinkedIn...](https://www.uol.com.br/universa/noticias/redacao/2021/08/20/a-rede-e-profissional-nao-de-flerte-elas-relatam-assedios-pelo-linkedin.htm?cmpid=copiaecola), um relatório da rede social Linkedin, mostrou que foram removidas mais 157 mil postagens contendo "assédio ou abuso", ou seja, muitas mulheres não se sentem seguras para se candidatar ou ser relevantes na plataforma, podendo não se destacarem no filtro dos recrutadores e perdendo oportunidades.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Por isso essa plataforma trará um ambiente seguro para mulheres compartilharem vagas afirmativas, trocar cursos e conhecimento para seu crescimento profissional.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As usuárias devem ser capazes de:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Fazer seu cadastro;
+- Colocar suas hard-skills e soft-skills em destaque.
+- Postar no feed da rede.
 
-### `npm run eject`
+### Captura de tela
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](./captura de tela.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito do mouse na página e selecionar "Tirar uma captura de tela". Você pode escolher uma captura de tela de altura total ou cortada com base no tamanho da página. Se for muito longo, talvez seja melhor cortá-lo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Como alternativa, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de tela. O FireShot tem uma opção gratuita, então você não precisa comprá-lo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
 
-## Learn More
+**Observação: exclua esta observação e os parágrafos acima ao adicionar sua captura de tela. Se preferir não adicionar uma captura de tela, sinta-se à vontade para remover toda esta seção.**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
+- URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
+
+## Meu processo
+
+### Construído com
+
+- HTML5 
+- CSS3
+- Flexbox 
+- Biblioteca JS
+- [React Redux](https://react-redux.js.org/) 
+
+# Introdução ao Create React App e Redux
+
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app), usando o [Redux](https://redux.js.org/) e [Redux Toolkit](https://redux-toolkit.js.org/) modelo.
+
+## Scripts disponíveis
+
+No diretório do projeto, você pode executar:
+
+```
+npm start
+```
+
+Para executar o aplicativo no modo de desenvolvimento, abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+
+A página será recarregada quando você fizer alterações.
+
+Você também pode ver erros de devtools no console.
+
+```
+teste npm
+```
+
+Inicia o executor de teste no modo de observação interativo.
+Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
+
+
+```
+npm run build
+```
+
+Cria o aplicativo para produção na pasta **build**.
+Ele empacota corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
+
+A compilação é minificada e os nomes dos arquivos incluem os hashes.\
+Seu aplicativo está pronto para ser implantado!
+
+Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
+
+```
+npm run eject
+```
+
+
+**Nota: esta é uma operação unidirecional. Depois de 'ejetar', você não pode voltar!**
+
+Se você não estiver satisfeito com a ferramenta de construção e opções de configuração, você pode `ejetar` a qualquer momento. 
+
+Este comando removerá a dependência de compilação única do seu projeto.
+
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente para o seu projeto, para que você tenha controle total sobre eles. 
+
+Todos os comandos, exceto `eject`, ainda funcionarão, mas apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
+
+Você nunca precisa usar `eject`. O conjunto de recursos selecionados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que esta ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para ela.
+
+### O que eu aprendi
+
+Use esta seção para recapitular alguns de seus principais aprendizados enquanto trabalhava neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
+
+Para ver como você pode adicionar trechos de código, veja abaixo:
+
+```html
+<h1>Algum código HTML do qual me orgulho</h1>
+```
+```css
+.proud-of-this-css {
+   cor: mamão chicote;
+}
+```
+```js
+const proudOfThisFunc = () => {
+   console.log('🎉')
+}
+```
+
+Se você quiser mais ajuda para escrever remarcações, recomendamos verificar [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
+
+**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios aprendizados.**
+
+### Desenvolvimento contínuo
+
+Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Podem ser conceitos com os quais você ainda não está totalmente confortável ou técnicas que você achou úteis e que deseja refinar e aperfeiçoar.
+
+**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios planos para o desenvolvimento contínuo.**
+
+### Recursos úteis
+
+- [Exemplo de recurso 1](https://www.example.com) - Isso me ajudou pelo motivo XYZ. Eu realmente gostei desse padrão e vou usá-lo daqui para frente.
+- [Exemplo de recurso 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Recomendo a todos que ainda estão aprendendo esse conceito.
+
+**Observação: exclua esta observação e substitua a lista acima pelos recursos que o ajudaram durante o desafio. Isso pode ser útil para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando olhar para trás neste projeto no futuro.**
+
+## Autora
+
+- Desenvolvedora: [Claudia de Jesus Dantas](https://github.com/claudiadejesusdantas)
+
+## Agradecimentos
+
+-Editar-
+
+
+
+
+## Saber mais
+
+Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
+
+Para aprender React, confira a [documentação do React](https://reactjs.org/).
