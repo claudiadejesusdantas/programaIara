@@ -1,3 +1,5 @@
 .header > h1 {
-    color: var(--rosaClaro);
+    display: flex;
+    width: 100%;
+    background-color: var(--rosaClaro);
 }

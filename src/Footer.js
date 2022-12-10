@@ -1,10 +1,11 @@
 import React from "react";
+import './Footer.css'
 
 function Footer(){
     return(
         <div>
-            <footer>&copy;
-                Desenvolvido por Claudia de Jesus Dantas
+            <footer className='rodape'>&copy;
+                Desenvolvido por Claudia de Jesus Dantas.
             </footer>
         </div>
     )

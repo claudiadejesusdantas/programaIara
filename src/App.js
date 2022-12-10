@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Footer } from './Footer';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       {/* sidebar */}
       {/* feed */}
       {/* widgets */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
