@@ -6,7 +6,7 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar__top'>
-                <img src="https://th.bing.com/th/id/R.9b4f7a943ae8ea770a2a0e03c0f99453?rik=%2bseQiYwqhWcFtQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f8%2ff%2f538425.jpg&ehk=0cwq7nYMQ8w7VynPIzTrfmoE54ZwBPNleaJEk4HvqJY%3d&risl=&pid=ImgRaw&r=0" alt="Foto de fundo um retângulo vermelho." />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/5120x2880-dark-blue-solid-color-background.jpg/2560px-5120x2880-dark-blue-solid-color-background.jpg" alt="Foto de fundo um retângulo azul." />
                 <Avatar />
                 <h2>Claudia Dantas</h2>
                 <h4>claudia@orkut.br</h4>
