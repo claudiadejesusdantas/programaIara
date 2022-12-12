@@ -17,7 +17,7 @@
 }
 
 .sidebar__top > h2 {
-    color: var(--azulEscuro);
+    color: var(--mulheres);
     font-size: 1em;
 }
 
@@ -46,7 +46,7 @@
     color: var(--cinza);
     font-size: 0.5em;
     font-weight: 600;
-    color: var(--azulEscuro);
+    color: var(--mulheres);
 }
 .sidebar__about >p{
     color: var(--cinza);
@@ -59,7 +59,8 @@
     text-align: left;
     padding: 5px;
     border: 1px solid var(--azulClaro);
-    background-color: var(--branco);
+    background-color: var(--cursos);
+    text-align: center;
     border-radius: 10px;
     margin-top: 10px;
 }
