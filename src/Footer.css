@@ -1,7 +1,9 @@
 .rodape{
+    color: var(--cinza);
     width: 100%;
     display: block;
     text-align: center;
     padding: 10px;
-    background-color: var(--azulEscuro);
+    font-size: 0.5em;
+    background-color: var(--verdeClaro);
 }
