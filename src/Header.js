@@ -10,7 +10,7 @@ function Header() {
     return (
             <div className='header'>
                 <div className='header__left'>
-                    <img src='../assets/catmermaid_color2.png' alt='Gata com rabo de sereia.' />
+                    <img src='../assets/catmermaid_color1.png' alt='Gata com rabo de sereia.' />
                 </div>
                 <div className='header__left'>
                     <h1>Programa Iara</h1>
