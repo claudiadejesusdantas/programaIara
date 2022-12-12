@@ -19,7 +19,7 @@ cinza - #59554e
 
 Cursos - #70B5
 Trabalho - #e7a
-Mulheres - "#7fc
+Mulheres - "#4B0082
 
 
 ## Tipografia

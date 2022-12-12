@@ -19,9 +19,9 @@ function Feed() {
             </div>
 
             <div className='feed__inputOptions'>
-                <InputOption Icon={LocalLibraryIcon} title='Cursos' color="#70B5"/>
-                <InputOption Icon={WorkOutlineIcon} title='Trabalho' color="#e7a"/>
-                <InputOption Icon={PersonIcon} title='Mulheres' color="#7fc"/>
+                <InputOption Icon={LocalLibraryIcon} title='Cursos' color="var(--cursos)"/>
+                <InputOption Icon={WorkOutlineIcon} title='Trabalho' color="var(--trabalho)"/>
+                <InputOption Icon={PersonIcon} title='Mulheres' color="var(--mulheres)"/>
 
             </div>
         </div>
