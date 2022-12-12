@@ -4,7 +4,6 @@
 }
 
 .feed__inputContainer {
-    background-color: white;
     border-radius: 10px;
     margin-bottom: 20px;
     height: fit-content;
@@ -13,11 +12,11 @@
 }
 
 .feed__input {
-    border: 1px solid grey;
+    border: 1px solid var(--azulClaro);
     border-radius: 30px;
     display: flex;
     padding: 10px;
-    color: gray;
+    color: var(--cinza);
     padding-left: 15px;
 }
 
