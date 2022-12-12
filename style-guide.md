@@ -5,21 +5,24 @@
 -EDITAR-
 
 ## Cores
-Fonte: (Paleta de Cores)[https://paletadecores.com/]
+Referência: 
+- [Paleta de Cores](https://paletadecores.com/)
+- [Tabela de Cores](http://erikasarti.com/html/tabela-cores/)
 
-rosaEscuro - #b9113f
-rosaClaro - #ffe3b3
-roxoClaro - #a8636e
-roxoEscuro - #4d1d4d
-azulClaro - #a1c1be
-azulEscuro - #05676e
-cinza - #59554e
+| **Cor** | **Hexadecial**|
+|----------|----------|
+| _rosaEscuro_ |#b9113f|
+| _rosaClaro_ | #a8636e|
+| _azulClaro_ | #a1c1be|
+| _verdeClaro_ | #6cbdb5|
+| _cinza_ | #59554e|
 
 ### Cores dos ícones
-
-Cursos - #70B5
-Trabalho - #e7a
-Mulheres - "#4B0082
+| **Cor** | **Hexadecial**|
+|----------|----------|
+|Cursos | #70B5|
+|Trabalho | #e7a|
+|Mulheres | #4B0082|
 
 
 ## Tipografia
