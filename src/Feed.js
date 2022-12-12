@@ -20,8 +20,8 @@ function Feed() {
 
             <div className='feed__inputOptions'>
                 <InputOption Icon={LocalLibraryIcon} title='Cursos' color="#70B5"/>
-                <InputOption Icon={WorkOutlineIcon} title='Cursos' color="#e7a"/>
-                <InputOption Icon={PersonIcon} title='Cursos' color="#7fc"/>
+                <InputOption Icon={WorkOutlineIcon} title='Trabalho' color="#e7a"/>
+                <InputOption Icon={PersonIcon} title='Mulheres' color="#7fc"/>
 
             </div>
         </div>
