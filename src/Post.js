@@ -1,6 +1,10 @@
 import { Avatar } from '@mui/material'
 import React from 'react'
+import InputOption from './InputOption'
 import './Post.css'
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import InsertCommentIcon from '@mui/icons-material/InsertComment';
+import ShareIcon from '@mui/icons-material/Share';
 
 function Post() {
     return (
@@ -14,7 +18,14 @@ function Post() {
             </div>
 
             <div className='post__body'>
-                <p></p>
+                <p>A mensagem vai aqui!!!</p>
+            </div>
+
+            <div className='post__buttons'>
+                <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)"/>
+                <InputOption Icon={InsertCommentIcon} title="Comentar" color="var(--cinza)"/>
+                <InputOption Icon={ShareIcon} title="Compartilhar" color="var(--cinza)"/>
+
             </div>
         </div>
     )

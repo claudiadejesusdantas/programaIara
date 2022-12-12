@@ -25,9 +25,9 @@
 
 .post__buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.post__body {
-    word-wrap: break-word;
+.post__body > p{
+    color: var(--cinza)
 }
