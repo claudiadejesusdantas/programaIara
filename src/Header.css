@@ -21,7 +21,8 @@
 }
 
 .header__left > h1 {
-    color: var(--quinta);
+    text-transform:uppercase;
+    color: var(--terceira);
     padding: 10px;
     display: flex;
     align-items: center;
