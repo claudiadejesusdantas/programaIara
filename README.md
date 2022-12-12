@@ -52,7 +52,17 @@ Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projet
 - URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
 - URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
 
-## Meu processo
+## Meus desafios
+
+#### Maior desafio
+Exportação do firebase. Mesmo seguindo todos os passos sugestionados pela [documentação](https://firebase.google.com/docs/web/setup) do Firebase, não estava exportando o db e o auth para o feed. 
+Então foi preciso utilizar uma solução do [stackoverflow](https://stackoverflow.com/questions/69044315/module-not-found-cant-resolve-firebase-in).
+
+#### Desafio da identidade visual
+
+
+
+
 
 ### Construído com
 
