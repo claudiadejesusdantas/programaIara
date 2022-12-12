@@ -8,6 +8,7 @@
 Referência: 
 - [Paleta de Cores](https://paletadecores.com/)
 - [Tabela de Cores](http://erikasarti.com/html/tabela-cores/)
+- [Encycolorpedia](https://encycolorpedia.pt/ffe3b3)
 
 | **Cor Padrões** | **Hexadecial**|
 |----------|----------|

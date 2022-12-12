@@ -42,11 +42,18 @@
     object-fit: cover;
 }
 
+.sidebar__about{
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--terceira);
+    border-right: 1px solid var(--terceira);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .sidebar__about > h4{
     color: var(--cinza);
     font-size: 0.5em;
     font-weight: 600;
-    color: var(--mulheres);
 }
 .sidebar__about >p{
     color: var(--cinza);
