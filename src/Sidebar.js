@@ -16,14 +16,9 @@ function Sidebar() {
                 <p>loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem. </p>
             </div>
             <div className='sidebar__bottom'>
-                <h2> Suas habilidades </h2>
-                <p> Javascript </p>
-                <p> HTML </p>
-                <p> CSS </p>
-                <p> React </p>
-                <p> Redux </p>
-                <p> Git </p>
-                <p> Github </p>
+                <h2> Frase </h2>
+                <p> "Eu recomendo a todos que tentem programar pelo menos uma vez ...especialmente as meninas." - Malala Yoursafzai </p>
+
             </div>
         </div>
     )
