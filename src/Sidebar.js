@@ -22,6 +22,8 @@ function Sidebar() {
                 <p> CSS </p>
                 <p> React </p>
                 <p> Redux </p>
+                <p> Git </p>
+                <p> Github </p>
             </div>
         </div>
     )
