@@ -9,20 +9,28 @@ Referência:
 - [Paleta de Cores](https://paletadecores.com/)
 - [Tabela de Cores](http://erikasarti.com/html/tabela-cores/)
 
-| **Cor** | **Hexadecial**|
+| **Cor Padrões** | **Hexadecial**|
 |----------|----------|
-| _rosaEscuro_ |#b9113f|
-| _rosaClaro_ | #a8636e|
-| _azulClaro_ | #a1c1be|
-| _verdeClaro_ | #6cbdb5|
-| _cinza_ | #59554e|
+|branco | #fafafa|
+|cinza | #59554e|
+|preto | #000|
 
-### Cores dos ícones
-| **Cor** | **Hexadecial**|
+| **Paleta Usada** | **Hexadecial**|
 |----------|----------|
-|Cursos | #70B5|
-|Trabalho | #e7a|
-|Mulheres | #4B0082|
+|primeira | #b3e5ff|
+|segunda | #05676e|
+|terceira | #a1c1be|
+|quarta | #a8636e|
+|quinta | #ffe3b3|
+|sexta | #b9113f|
+|setima | #ffffe0|
+
+
+| **Cores dos ícones** | **Hexadecial**|
+|----------|----------|
+|cursos | #70B5|
+|vagas | #e7a|
+|network | #4B0082|
 
 
 ## Tipografia

@@ -5,6 +5,7 @@ import InputOption from './InputOption';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import PersonIcon from '@mui/icons-material/Person';
+import Post from './Post';
 
 function Feed() {
   return (
@@ -20,10 +21,15 @@ function Feed() {
 
             <div className='feed__inputOptions'>
                 <InputOption Icon={LocalLibraryIcon} title='Cursos' color="var(--cursos)"/>
-                <InputOption Icon={WorkOutlineIcon} title='Trabalho' color="var(--trabalho)"/>
-                <InputOption Icon={PersonIcon} title='Mulheres' color="var(--mulheres)"/>
-
+                <InputOption Icon={WorkOutlineIcon} title='Vagas' color="var(--vagas)"/>
+                <InputOption Icon={PersonIcon} title='Network' color="var(--network)"/>
             </div>
+
+            <Post
+                name="Claudia Dantas"
+                description="This is a test"
+                message="Wow this worked..."
+            />
         </div>
     </div>
   )

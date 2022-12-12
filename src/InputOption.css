@@ -8,7 +8,8 @@
 }
 
 .inputOption:hover{
-    background-color: var(--azulClaro);
+    border-top: 1px solid var(--quarta) ;
+    border-bottom: 1px solid var(--sexta) ;
     border-radius: 10px;
 }
 

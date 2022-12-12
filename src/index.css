@@ -5,17 +5,28 @@
 }
 
 :root {
-  --branco: #fafafa;
-  --rosaEscuro: #a8636e;
-  --rosaClaro: #ffe3b3;
-  --azulClaro: #a1c1be;
-  --azulEscuro: #05676e;
-  --verdeClaro: #6cbdb5;
-  --cinza: #59554e;
 
-  --cursos: #70B5;
-  --trabalho: #e7a;
-  --mulheres: #4B0082;
+  --primeira: #b3e5ff;
+  /* _verdeClaro_ */
+  --segunda: #05676e;
+  /* _ _ */
+  --terceira: #a1c1be;
+  /* _azulClaro_ */
+  --quarta: #a8636e;
+  /* _rosaClaro_ */
+  --quinta: #ffe3b3;
+  /* __ */
+  --sexta: #b9113f;
+  /* _rosaEscuro_ */
+  --setima:#ffffe0;
+
+  --branco: #fafafa;
+  --cinza: #59554e;
+  --preto: #000;
+
+  --cursos: #6cbdb5;
+  --vagas: #e7a;
+  --network: #70B5;
 
 }
 

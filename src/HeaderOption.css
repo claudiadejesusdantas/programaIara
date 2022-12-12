@@ -3,8 +3,20 @@
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    color: var(--rosaClaro);
+    color: var(--quinta);
     cursor: pointer;
+}
+
+.headerOption:nth-child(2){
+    color: var(--cursos);
+}
+
+.headerOption:nth-child(3){
+    color: var(--vagas);
+}
+
+.headerOption:nth-child(4){
+    color: var(--network);
 }
 
 .headerOption__title{
@@ -19,6 +31,6 @@
 }
 
 .headerOption:hover{
-    color: var(--azulEscuro);
+    color: var(--terceira);
 }
 
