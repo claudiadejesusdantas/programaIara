@@ -15,6 +15,11 @@ azulClaro - #a1c1be
 azulEscuro - #05676e
 cinza - #59554e
 
+### Cores dos ícones
+
+Cursos - #70B5
+Trabalho - #e7a
+Mulheres - "#7fc
 
 
 ## Tipografia
