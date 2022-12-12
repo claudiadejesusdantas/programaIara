@@ -1,4 +1,62 @@
-.login > img{
+
+.login{
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--segunda);
+}
+
+.login>img{
+    object-fit: contain;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login > form {
     display: flex;
-    margin: 0 auto;
+    flex-direction: column;
+}
+
+.login > form > input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--cinza);
+}
+
+.login > form > button {
+    width: 365px;
+    height: 50px;
+    font-size: large;
+    color:var(--branco);
+    background-color: var(--preto);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login > form > button:hover{
+    background-color: var(--terceira);
+    color: var(--preto);
+}
+
+.login__register{
+    font-weight: bold;
+}
+
+.login__register:hover{
+    cursor: pointer;
+    color: var(--terceira);
+}
+
+.login >p{
+    margin-top: 20px;
 }
