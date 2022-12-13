@@ -19,6 +19,7 @@ function Header() {
         auth.signOut();
     };
 
+    
     return (
             <div className='header'>
                 <div className='header__left'>

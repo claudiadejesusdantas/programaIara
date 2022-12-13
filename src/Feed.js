@@ -29,7 +29,7 @@ function Feed() {
             name: 'Claudia De Jesus',
             description: ' This is a test!!!!',
             message: input,
-            photoUrl: "",
+            photoURL: "",
             timestamp: new Date().getTime()
         });
         setInput("");

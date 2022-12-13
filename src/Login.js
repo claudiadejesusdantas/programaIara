@@ -21,7 +21,7 @@ function Login() {
                 email: userAuth.user.email,
                 uid: userAuth.user.uid,
                 displayName: userAuth.user.displayName,
-                profileUrl: userAuth.user.photoURL,
+                photoUrl: userAuth.user.photoURL,
             }))
         })
         .catch((error)=> alert(error));
@@ -30,13 +30,14 @@ function Login() {
     const register = () => {
         if (!name) {
             return alert("Por favor insira seu nome!")
-        }
+        } 
+        console.log(profilePic)
 
         auth.createUserWithEmailAndPassword(email, password)
             .then((userAuth) => {
                 userAuth.user.updateProfile({
                     displayName: name,
-                    photoUrl: profilePic,
+                    photoURL: profilePic,
                 })
                     .then(() => {
                         dispatch(
@@ -44,7 +45,7 @@ function Login() {
                                 email: userAuth.user.email,
                                 uid: userAuth.user.uid,
                                 displayName: name,
-                                photoUrl: profilePic,
+                                photoURL: profilePic,
                             })
                         )
                     })

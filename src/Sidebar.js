@@ -6,6 +6,7 @@ import './Sidebar.css'
 
 function Sidebar() {
     const user = useSelector(selectUser);
+    console.log(user)
 
     return (
         <div className='sidebar'>
