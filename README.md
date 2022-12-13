@@ -72,6 +72,7 @@ Então foi preciso utilizar uma solução do [stackoverflow](https://stackoverfl
 - Biblioteca JS
 - [React Redux](https://react-redux.js.org/) 
 - [Material UI](https://mui.com/core/)
+- [React Flip Move](https://www.npmjs.com/package/react-flip-move)
 
 # Introdução ao Create React App e Redux
 
