@@ -35,9 +35,6 @@ function Sidebar() {
                     <li>🧜‍♀️ Qualquer tentativa de burlar uma punição levará a ban imediato!</li>
                     <li>🧜‍♀️ Tenham bom senso, ética e respeito!</li>
                     <li>🧜‍♀️ Esperamos que esse seja um ambiente de sororidade, a qual cada uma pode ajudar a outra! 💜</li>
-                    
-                    
-
                 </ul>
                 
 
