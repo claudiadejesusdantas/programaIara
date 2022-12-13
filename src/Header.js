@@ -8,6 +8,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout, selectUser } from './features/userSlice';
 import { auth } from './firebase';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -30,10 +31,10 @@ function Header() {
                 </div>
 
                 <div className='header__right'>
-                    <HeaderOption Icon={HomeIcon} title={"Home"} />
-                    <HeaderOption Icon={LocalLibraryIcon} title={"Cursos"} />
-                    <HeaderOption Icon={WorkOutlineIcon} title={"Vagas"} />
-                    <HeaderOption Icon={PersonIcon} title={"Network"} />
+                    <Link to="/"><HeaderOption Icon={HomeIcon} title={"Home"} /></Link>
+                    <Link to="/cursos"><HeaderOption Icon={LocalLibraryIcon} title={"Cursos"} /></Link>
+                    <Link to="/vagas"><HeaderOption Icon={WorkOutlineIcon} title={"Vagas"} /></Link>
+                    <Link to="/network"><HeaderOption Icon={PersonIcon} title={"Network"} /></Link>
                     <HeaderOption 
                         avatar={true} 
                         title='me'
