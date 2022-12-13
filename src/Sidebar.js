@@ -26,7 +26,8 @@ function Sidebar() {
                 <p>"Eu recomendo a todos que tentem programar pelo menos uma vez ...especialmente as meninas." - Malala Yoursafzai </p>
             </div>
             <div className='sidebar__bottom'>
-                <ul> Diretrizes da plataforma: 
+                <ul> 
+                    <h4> Diretrizes da plataforma: </h4> 
                     <li>🧜‍♀️ Todas devem ser respeitadas, independentemente de religião, condição física, entre outros. Então não será tolerado qualquer caso de xenofobia, racismo, homofobia, sexismo ou qualquer tipo de discurso de ódio! Passível de ban imediato!</li>
                     <li>🧜‍♀️ Antes de divulgar algo, consulte por gentileza se a fonte é confiável.</li>
                     <li>🧜‍♀️ Links, imagens, mensagens, vídeos que contenham material sensível (gore, pornográfico, mensagem de ódio, etc.) não serão permitidos aqui!</li>

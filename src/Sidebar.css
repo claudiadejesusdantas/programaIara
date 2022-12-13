@@ -73,15 +73,16 @@
     background-color: var(--branco);
 }
 
-.sidebar__bottom>ul{
-    font-size: 0.7em;
+.sidebar__bottom>ul >h4{
+    font-size: 1em;
     padding: 0.1em;
     background-color: var(--branco);
+    font-weight: bolder;
+    text-align: center;
 }
 
-.sidebar__bottom>li{
-    font-size: 0.7em;
-    font-weight: bold;
+.sidebar__bottom>li, ul{
+    font-size: 0.5em;
 }
 
 
