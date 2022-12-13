@@ -6,11 +6,11 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import ShareIcon from '@mui/icons-material/Share';
 
-function Post({name, description, message}) {
+function Post({name, description, message, photoUrl}) {
     return (
         <div className='post'>
             <div className='post__header'>
-                <Avatar />
+                <Avatar src={photoUrl}>{name[0]}</Avatar>
                 <div className='post__info'>
                     <h2>{name}</h2>
                     <p>{description}</p>
