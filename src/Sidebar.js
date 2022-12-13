@@ -22,12 +22,12 @@ function Sidebar() {
                 <h4>{user.email}</h4>
             </div>
             <div className='sidebar__about'>
-                <h4>Sobre mim: </h4>
-                <p>loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem. </p>
+                <h4>Lembre-se: </h4>
+                <p>"Eu recomendo a todos que tentem programar pelo menos uma vez ...especialmente as meninas." - Malala Yoursafzai </p>
             </div>
             <div className='sidebar__bottom'>
                 <h2> Frase </h2>
-                <p> "Eu recomendo a todos que tentem programar pelo menos uma vez ...especialmente as meninas." - Malala Yoursafzai </p>
+                <p>  </p>
 
             </div>
         </div>
