@@ -5,12 +5,13 @@ import HomeIcon from '@mui/icons-material/Home';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import PersonIcon from '@mui/icons-material/Person';
-import { useDispatch } from 'react-redux';
-import { logout } from './features/userSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { logout, selectUser } from './features/userSlice';
 import { auth } from './firebase';
 
 function Header() {
 
+    const user = useSelector(selectUser);
     const dispatch = useDispatch();
 
     const logoutOfApp = () => {
@@ -33,8 +34,8 @@ function Header() {
                     <HeaderOption Icon={WorkOutlineIcon} title={"Vagas"} />
                     <HeaderOption Icon={PersonIcon} title={"Network"} />
                     <HeaderOption 
-                        avatar="https://media.licdn.com/dms/image/C4D03AQElxiuhh_WKDA/profile-displayphoto-shrink_200_200/0/1659034585879?e=1675900800&v=beta&t=eWEXXHr2HisiPIyJQ7H3qLbh7S2uZU1p-i0Jcg4rOro" title='me'
-                        
+                        avatar={true} 
+                        title='me'
                         onClick={logoutOfApp}
                         />
                 </div>
