@@ -67,19 +67,19 @@
     text-align: left;
     padding: 5px;
     border: 1px solid var(--terceira);
-    text-align: center;
+    text-align: start;
     border-radius: 10px;
     margin-top: 10px;
     background-color: var(--branco);
 }
 
-.sidebar__bottom>p{
+.sidebar__bottom>ul{
     font-size: 0.7em;
     padding: 0.1em;
     background-color: var(--branco);
 }
 
-.sidebar__bottom>h2{
+.sidebar__bottom>li{
     font-size: 0.7em;
     font-weight: bold;
 }
