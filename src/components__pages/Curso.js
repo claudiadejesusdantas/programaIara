@@ -1,6 +1,6 @@
 import { Avatar } from '@mui/material'
 import React, {forwardRef} from 'react'
-import InputOption from '../InputOption'
+import InputOption from '../components/InputOption'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import ShareIcon from '@mui/icons-material/Share';

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Feed.css'
 import CreateIcon from '@mui/icons-material/Create';
-import InputOption from './InputOption';
-import Post from './Post';
+import Post from './components/Post';
 import { db } from './firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from './features/userSlice';

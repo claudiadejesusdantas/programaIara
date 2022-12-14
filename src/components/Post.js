@@ -1,7 +1,7 @@
 import { Avatar } from '@mui/material'
 import React, {forwardRef} from 'react'
 import InputOption from './InputOption'
-import './Post.css'
+import '../styles/Post.css'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import ShareIcon from '@mui/icons-material/Share';

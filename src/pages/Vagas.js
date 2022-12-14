@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Sidebar from '../Sidebar'
+import Sidebar from '../components/Sidebar'
 import CreateIcon from '@mui/icons-material/Create';
-import InputOption from '../InputOption';
+import InputOption from '../components/InputOption';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import { db } from '../firebase';
 import { useSelector } from 'react-redux';

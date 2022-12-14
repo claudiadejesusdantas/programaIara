@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import Sidebar from '../Sidebar'
 import CreateIcon from '@mui/icons-material/Create';
-import InputOption from '../InputOption';
+import InputOption from '../components/InputOption';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import { db } from '../firebase';
 import { useSelector } from 'react-redux';
