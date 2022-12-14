@@ -29,5 +29,7 @@
 }
 
 .vaga__body > p{
-    color: var(--cinza)
+    color: var(--cinza);
+    word-wrap: break-word;         
+    overflow-wrap: break-word;
 }
