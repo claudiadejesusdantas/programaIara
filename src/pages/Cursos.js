@@ -1,17 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import Sidebar from '../Sidebar'
-import './Cursos.css'
+// import Sidebar from '../Sidebar'
 import CreateIcon from '@mui/icons-material/Create';
 import InputOption from '../InputOption';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
-import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
-import PersonIcon from '@mui/icons-material/Person';
-// import Post from '../Post';
-import Curso from '../components/Curso';
 import { db } from '../firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
+import Curso from '../components/Curso';
+import './Cursos.css'
 
 function Cursos() {
     const user = useSelector(selectUser);
