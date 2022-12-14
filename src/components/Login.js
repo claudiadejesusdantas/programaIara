@@ -24,14 +24,13 @@ function Login() {
                 photoUrl: userAuth.user.photoURL,
             }))
         })
-        .catch((error)=> alert(error));
+        .catch(()=> alert("Ainda não existe registro nesse e-mail!"));
     };
 
     const register = () => {
         if (!name) {
             return alert("Por favor insira seu nome!")
         } 
-        console.log(profilePic)
 
         auth.createUserWithEmailAndPassword(email, password)
             .then((userAuth) => {
@@ -50,7 +49,7 @@ function Login() {
                         )
                     })
             })
-            .catch((error) => alert(error));
+            .catch((error) => console.log(error));
     };
 
     return (
