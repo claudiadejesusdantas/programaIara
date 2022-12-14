@@ -1,0 +1,33 @@
+.curso {
+    background-color: var(--cursos);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.curso__header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.curso__info {
+    margin-left: 10px;
+}
+
+.curso__info > h2 {
+    font-size: 15px;
+}
+
+.curso__info > p {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.curso__buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso__body > p{
+    color: var(--cinza)
+}
