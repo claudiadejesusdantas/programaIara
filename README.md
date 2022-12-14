@@ -75,6 +75,7 @@ Então foi preciso utilizar uma solução do [stackoverflow](https://stackoverfl
 - [React Flip Move](https://www.npmjs.com/package/react-flip-move)
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
 - [React Linkify](https://www.npmjs.com/package/react-linkify)
+- [The Markdown Guide](https://www.markdownguide.org/)
 
 # Introdução ao Create React App e Redux
 
@@ -151,15 +152,19 @@ const proudOfThisFunc = () => {
 }
 ```
 
-Se você quiser mais ajuda para escrever remarcações, recomendamos verificar [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
+Se você quiser mais ajuda para escrever remarcações, recomendamos verificar  para saber mais.
 
 **Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios aprendizados.**
 
 ### Desenvolvimento contínuo
 
-Use esta seção para delinear as áreas nas quais você deseja continuar focando em projetos futuros. Podem ser conceitos com os quais você ainda não está totalmente confortável ou técnicas que você achou úteis e que deseja refinar e aperfeiçoar.
-
-**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios planos para o desenvolvimento contínuo.**
+() Confirmação de dados cadastrais.
+   () termos de uso pré-cadastro.
+() Separar página de login e cadastro.
+() Páginação de postagens.
+() Edição de usuário.
+() Funcionamento dos botões das postagens.
+() Filtro para achar postagens (busca no header).
 
 ### Recursos úteis
 
@@ -171,13 +176,6 @@ Use esta seção para delinear as áreas nas quais você deseja continuar focand
 ## Autora
 
 - Desenvolvedora: [Claudia de Jesus Dantas](https://github.com/claudiadejesusdantas)
-
-## Agradecimentos
-
--Editar-
-
-
-
 
 ## Saber mais
 
