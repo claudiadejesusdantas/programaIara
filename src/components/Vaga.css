@@ -1,0 +1,33 @@
+.vaga {
+    background-color: var(--vagas);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.vaga__header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.vaga__info {
+    margin-left: 10px;
+}
+
+.vaga__info > h2 {
+    font-size: 15px;
+}
+
+.vaga__info > p {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.vaga__buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vaga__body > p{
+    color: var(--cinza)
+}
