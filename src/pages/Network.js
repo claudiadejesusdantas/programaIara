@@ -7,7 +7,7 @@ import { db } from '../firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
-import People from '../components/People';
+import People from '../components__pages/People';
 import './Network.css'
 
 function Network() {

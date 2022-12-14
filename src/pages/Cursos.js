@@ -7,7 +7,7 @@ import { db } from '../firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
-import Curso from '../components/Curso';
+import Curso from '../components__pages/Curso';
 import './Cursos.css'
 
 function Cursos() {

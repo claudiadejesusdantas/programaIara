@@ -7,7 +7,7 @@ import { db } from '../firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
-import Vaga from '../components/Vaga';
+import Vaga from '../components__pages/Vaga';
 import './Vagas.css'
 
 function Vagas() {
