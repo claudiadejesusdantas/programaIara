@@ -1,0 +1,46 @@
+.network {
+    padding: 20 0px;
+    width: 100%;
+}
+
+.network__inputContainer {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: fit-content;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.network__input {
+    background-color: var(--branco);
+    margin: 10px;
+    border: 1px solid var(--terceira);
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: var(--cinza);
+    padding-left: 15px;
+}
+
+.network__input>form {
+    display: flex;
+    width: 100%;
+}
+
+.network__input>form>input {
+    background-color: var(--branco);
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.network__input>form>button {
+    display: none;
+}
+
+.network__inputOptions {
+    display: flex;
+    justify-content: center;
+}

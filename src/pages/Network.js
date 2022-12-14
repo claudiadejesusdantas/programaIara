@@ -1,11 +1,70 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Sidebar from '../Sidebar'
+import CreateIcon from '@mui/icons-material/Create';
+import InputOption from '../InputOption';
+import PersonIcon from '@mui/icons-material/Person';
+import { db } from '../firebase';
+import { useSelector } from 'react-redux';
+import { selectUser } from '../features/userSlice';
+import FlipMove from 'react-flip-move';
+import People from '../components/People';
+import './Network.css'
 
 function Network() {
+  const user = useSelector(selectUser);
+  const [input, setInput] = useState('');
+  const [network, setNetwork] = useState([]);
+
+  useEffect(() => {
+    db.collection("network").orderBy('timestamp', 'desc').onSnapshot((snapshot) =>
+      setNetwork(snapshot.docs.map(doc => ({
+        id: doc.id,
+        data: doc.data(),
+      }))
+      )
+    );
+  }, []);
+
+  const sendPost = (e) => {
+    e.preventDefault();
+
+    db.collection("network").add({
+      name: user.displayName,
+      description: user.email,
+      message: input,
+      photoURL: "",
+      timestamp: new Date().getTime()
+    });
+    setInput("");
+  };
+
   return (
-    <div className='app__body'>
-            <Sidebar/>
-            <h2>I am Network!!!</h2>
+    <div className='network'>
+      <div className='network_inputContainer'>
+        <div className='network__input'>
+          <CreateIcon />
+          <form>
+            <input value={input} onChange={e => setInput(e.target.value)} type="text" />
+            <button onClick={sendPost} type="submit"> Enviar </button>
+          </form>
+        </div>
+
+        <div className='network__inputOptions'>
+          <InputOption Icon={PersonIcon} title='network' color="var(--network)" />
+        </div>
+      </div>
+
+      <FlipMove>
+        {network.map(({ id, data: { name, description, message, photoUrl } }) =>
+          <People
+            key={id}
+            name={name}
+            description={description}
+            message={message}
+            photoUrl={photoUrl}
+          />
+        )}
+      </FlipMove>
     </div>
   )
 }

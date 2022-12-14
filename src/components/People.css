@@ -1,0 +1,33 @@
+.people {
+    background-color: var(--network);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.people__header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.people__info {
+    margin-left: 10px;
+}
+
+.people__info > h2 {
+    font-size: 15px;
+}
+
+.people__info > p {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.people__buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.people__body > p{
+    color: var(--cinza)
+}
