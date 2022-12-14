@@ -50,7 +50,7 @@ function Network() {
         </div>
 
         <div className='network__inputOptions'>
-          <InputOption Icon={PersonIcon} title='network' color="var(--network)" />
+          <InputOption Icon={PersonIcon} title='Network' color="var(--network)" />
         </div>
       </div>
 
