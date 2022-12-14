@@ -38,3 +38,6 @@ Referência:
 
 - Família: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Pesos: Light 300, Regular 400, Bold 700
+
+## Imagens utilizadas
+- [Logo](https://www.flaticon.com/free-icon/mermaid_2847282?term=mermaid&page=1&position=20&page=1&position=20&related_id=2847282&origin=tag).
