@@ -1,56 +1,58 @@
-# ProgramaIara - Rede social para inclusão de vagas afirmativas
+# Programa Iara 🧜‍♀️- Rede social para mulheres na tech
+## Inclusão de vagas afirmativas, cursos e sororidade em um só lugar
 
-Esta é uma plataforma desenvolvida como possível solução para os problemas de derespeito enfrentados por mulheres na hora de procurar vagas de emprego.
+Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online mulheres da área de tecnologia, que buscam vagas, cursos e outras amigas para conversar sobre essa área fantástica. Se encantem com o canto da sereia e navegue nesse site incrível! 
 
 
 ## Índice
 
 - Visão geral
    - O desafio
-   - Captura de tela (vazio)
-   - Links (vazio)
-- Meu processo
-   - Construído com 
+   - Captura de tela
+   - Links
+- Meus desafios
+   - Maior desafio
+   - Desafio da identidade virtual
+   - Desafio das cores do header(vazio)
+   - Desafio dos links nas postagens(vazio)
+- Construído com 
    - Introdução ao Create React App e Redux
-   - O que aprendi (vazio)
-   - Desenvolvimento contínuo (vazio)
-   - Recursos úteis (vazio)
+- Desenvolvimento contínuo
+- Recursos úteis 
 - Autora
-- Agradecimentos (vazio)
 - Saber mais
 
 
 ## Visão geral
 
-
-### O desafio
-
 Como mostrado na matéria da uol, ['Aparência vale mais do que o cérebro':  elas relatam assédios pelo LinkedIn...](https://www.uol.com.br/universa/noticias/redacao/2021/08/20/a-rede-e-profissional-nao-de-flerte-elas-relatam-assedios-pelo-linkedin.htm?cmpid=copiaecola), um relatório da rede social Linkedin, mostrou que foram removidas mais 157 mil postagens contendo "assédio ou abuso", ou seja, muitas mulheres não se sentem seguras para se candidatar ou ser relevantes na plataforma, podendo não se destacarem no filtro dos recrutadores e perdendo oportunidades.
 
-Por isso essa plataforma trará um ambiente seguro para mulheres compartilharem vagas afirmativas dentro da área de tecnologia, trocar cursos e conhecimento para seu crescimento profissional.
+Esta é uma plataforma desenvolvida como possível solução para os problemas de derespeito enfrentados por mulheres na hora de procurar vagas de emprego.
 
-As usuárias devem ser capazes de:
+Por isso essa plataforma foi pensada para trazer ambiente seguro para mulheres compartilharem vagas afirmativas dentro da área de tecnologia, trocar cursos e conhecimento para seu crescimento profissional.
 
-- Fazer seu cadastro;
-- Colocar suas hard-skills e soft-skills em destaque.
-- Postar no feed da rede.
+### O desafio
+As usuárias poderão:
+
+- Fazer uma rede social interativa com React.
+- Fazer seu cadastro com foto(url).
+- Postar no feed da rede cursos, trabalhos e sobre a pessoa para gerar networking.
+
 
 ### Captura de tela
 
-![](./captura de tela.jpg)
+![Tela Inicial](https://i.pinimg.com/originals/31/c2/f6/31c2f61a368139ac11c764452a48a534.jpg)
+![Home](https://i.pinimg.com/originals/db/46/00/db46000a3d91760dcaff74dc3a961833.jpg)
+![Cursos](https://i.pinimg.com/originals/f1/92/06/f19206f4d88a76faef8e75dba604a16e.jpg)
+![Vagas](https://i.pinimg.com/originals/25/6d/b0/256db02823d347f2eb3d3731e4ad3c37.jpg)
+![Network](https://i.pinimg.com/originals/53/49/0b/53490b579ba046e6588d92027e2f2bd9.jpg)
 
-Adicione uma captura de tela da sua solução. A maneira mais fácil de fazer isso é usar o Firefox para visualizar seu projeto, clicar com o botão direito do mouse na página e selecionar "Tirar uma captura de tela". Você pode escolher uma captura de tela de altura total ou cortada com base no tamanho da página. Se for muito longo, talvez seja melhor cortá-lo.
-
-Como alternativa, você pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de tela. O FireShot tem uma opção gratuita, então você não precisa comprá-lo.
-
-Em seguida, corte/otimize/edite sua imagem como quiser, adicione-a ao seu projeto e atualize o caminho do arquivo na imagem acima.
-
-**Observação: exclua esta observação e os parágrafos acima ao adicionar sua captura de tela. Se preferir não adicionar uma captura de tela, sinta-se à vontade para remover toda esta seção.**
 
 ### Links
 
-- URL da solução: [Adicionar URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione URL do site ao vivo aqui](https://your-live-site-url.com)
+- Site: [ProgramaIara](https://programaiara.vercel.app/)
+- Vídeo: [Apresentação](https://youtu.be/AdVmRbU4_-o)
+- Vídeo: [Como se cadastrar](https://youtu.be/6mpOp95qApc)
 
 ## Meus desafios
 
@@ -59,12 +61,31 @@ Exportação do firebase. Mesmo seguindo todos os passos sugestionados pela [doc
 Então foi preciso utilizar uma solução do [stackoverflow](https://stackoverflow.com/questions/69044315/module-not-found-cant-resolve-firebase-in).
 
 #### Desafio da identidade visual
+Construir uma identidade visual para o site, transmitindo sensibilidade, feminilidade e profissionalismo. Pensar no logo e na imagem que transmitisse a característica feminina e forte, como os contos de sereias e escolher a Iara que é uma das personas mais importante do folclore brasileiro e que abraçaria as características mencionadas acima.
+
+<!-- #### Desafio das cores do header
+
+#### Desafio dos links nas postagens
+
+
+```html
+<h1>Algum código HTML do qual me orgulho</h1>
+```
+```css
+.proud-of-this-css {
+   cor: mamão chicote;
+}
+```
+```js
+const proudOfThisFunc = () => {
+   console.log('🎉')
+}
+``` -->
 
 
 
 
-
-### Construído com
+## Construído com
 
 - HTML5 
 - CSS3
@@ -132,46 +153,26 @@ Todos os comandos, exceto `eject`, ainda funcionarão, mas apontarão para os sc
 
 Você nunca precisa usar `eject`. O conjunto de recursos selecionados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que esta ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para ela.
 
-### O que eu aprendi
+# Desenvolvimento contínuo
+Algumas melhorias que serão desenvolvidas futuramente:
 
-Use esta seção para recapitular alguns de seus principais aprendizados enquanto trabalhava neste projeto. Escrevê-los e fornecer amostras de código das áreas que você deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
+( ) Confirmação de dados cadastrais.
+   
+( ) Termos de uso pré-cadastro.
 
-Para ver como você pode adicionar trechos de código, veja abaixo:
+( ) Separar página de login e cadastro.
 
-```html
-<h1>Algum código HTML do qual me orgulho</h1>
-```
-```css
-.proud-of-this-css {
-   cor: mamão chicote;
-}
-```
-```js
-const proudOfThisFunc = () => {
-   console.log('🎉')
-}
-```
+( ) Páginação de postagens.
 
-Se você quiser mais ajuda para escrever remarcações, recomendamos verificar  para saber mais.
+( ) Edição de usuário.
 
-**Observação: exclua esta observação e o conteúdo desta seção e substitua por seus próprios aprendizados.**
+( ) Funcionamento dos botões das postagens.
 
-### Desenvolvimento contínuo
-
-() Confirmação de dados cadastrais.
-   () termos de uso pré-cadastro.
-() Separar página de login e cadastro.
-() Páginação de postagens.
-() Edição de usuário.
-() Funcionamento dos botões das postagens.
-() Filtro para achar postagens (busca no header).
+( ) Filtro para achar postagens (busca no header).
 
 ### Recursos úteis
 
-- [Exemplo de recurso 1](https://www.example.com) - Isso me ajudou pelo motivo XYZ. Eu realmente gostei desse padrão e vou usá-lo daqui para frente.
-- [Exemplo de recurso 2](https://www.example.com) - Este é um artigo incrível que me ajudou a finalmente entender XYZ. Recomendo a todos que ainda estão aprendendo esse conceito.
-
-**Observação: exclua esta observação e substitua a lista acima pelos recursos que o ajudaram durante o desafio. Isso pode ser útil para qualquer pessoa que esteja visualizando sua solução ou para você mesmo quando olhar para trás neste projeto no futuro.**
+- [Vídeo: Let's build LinkedIn with REACT.JS! (with Redux & Firebase)](https://youtu.be/QaYts9sPmcY) - Isso me ajudou a estruturar os conhecimentos de montagem do React e treinar para criar o projeto.
 
 ## Autora
 
