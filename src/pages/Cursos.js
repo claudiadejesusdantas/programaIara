@@ -44,7 +44,8 @@ function Cursos() {
                 <div className='cursos__input'>
                     <CreateIcon />
                     <form>
-                        <input value={input} onChange={e => setInput(e.target.value)} type="text" />
+                        <input placeholder='Aqui podemos colocar cursos, bootcamps, artigos...tudo para aprendermos mais!
+' value={input} onChange={e => setInput(e.target.value)} type="text" />
                         <button onClick={sendPost} type="submit"> Enviar </button>
                     </form>
                 </div>

@@ -44,7 +44,7 @@ function Vagas() {
         <div className='vagas__input'>
           <CreateIcon />
           <form>
-            <input value={input} onChange={e => setInput(e.target.value)} type="text" />
+            <input value={input} onChange={e => setInput(e.target.value)} type="text" placeholder='Aqui você coloca as vagas de emprego, oportunidades freelance, clt, pj... Coloque o máximo de informações como nome da empresa, requisitos etc.' />
             <button onClick={sendPost} type="submit"> Enviar </button>
           </form>
         </div>

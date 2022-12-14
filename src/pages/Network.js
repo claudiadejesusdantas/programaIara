@@ -44,7 +44,7 @@ function Network() {
         <div className='network__input'>
           <CreateIcon />
           <form>
-            <input value={input} onChange={e => setInput(e.target.value)} type="text" />
+            <input placeholder='Aqui você se apresenta, coloca os links das suas opções de contato e adiciona outras amigas.' value={input} onChange={e => setInput(e.target.value)} type="text" />
             <button onClick={sendPost} type="submit"> Enviar </button>
           </form>
         </div>
