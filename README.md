@@ -74,6 +74,7 @@ Então foi preciso utilizar uma solução do [stackoverflow](https://stackoverfl
 - [Material UI](https://mui.com/core/)
 - [React Flip Move](https://www.npmjs.com/package/react-flip-move)
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+- [React Linkify](https://www.npmjs.com/package/react-linkify)
 
 # Introdução ao Create React App e Redux
 

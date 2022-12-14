@@ -5,6 +5,7 @@ import './Post.css'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import ShareIcon from '@mui/icons-material/Share';
+import ReactLinkify from 'react-linkify';
 
 const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
     return (
@@ -18,7 +19,9 @@ const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
             </div>
 
             <div className='post__body'>
-                <p>{message}</p>
+                <ReactLinkify componentDecorator={(decoratedHref, decoratedText, key) => ( <a target="blank" href={decoratedHref} key={key}> {decoratedText} </a> )}> 
+                    <p>{message}</p>
+                </ReactLinkify>
             </div>
 
             <div className='post__buttons'>
