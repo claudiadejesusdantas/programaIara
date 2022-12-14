@@ -5,7 +5,7 @@ import  Home  from './pages/Home';
 import Cursos from './pages/Cursos';
 import Vagas from './pages/Vagas';
 import Network from './pages/Network';
-import Header from './Header';
+import Header from './components/Header';
 
 function ApplicationRoutes() {
   return (

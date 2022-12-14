@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import './Feed.css'
+import '../styles/Feed.css'
 import CreateIcon from '@mui/icons-material/Create';
-import Post from './components/Post';
-import { db } from './firebase';
+import Post from './Post';
+import { db } from '../firebase';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 
 function Feed() {

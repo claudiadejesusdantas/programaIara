@@ -1,13 +1,13 @@
 import React from 'react'
-import './Header.css'
+import '../styles/Header.css'
 import HeaderOption from './HeaderOption'
 import HomeIcon from '@mui/icons-material/Home';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import PersonIcon from '@mui/icons-material/Person';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout, selectUser } from './features/userSlice';
-import { auth } from './firebase';
+import { logout, selectUser } from '../features/userSlice';
+import { auth } from '../firebase';
 import { Link } from 'react-router-dom';
 
 function Header() {
