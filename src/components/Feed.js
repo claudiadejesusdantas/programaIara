@@ -12,6 +12,8 @@ function Feed() {
     const [input, setInput] = useState('');
     const [posts, setPosts] = useState([]);
 
+    console.log(posts)
+
     useEffect(() => {
         db.collection("posts").orderBy('timestamp', 'desc').onSnapshot((snapshot) =>
             setPosts(snapshot.docs.map(doc => ({
@@ -48,13 +50,14 @@ function Feed() {
             </div>
 
             <FlipMove>
-            {posts.map(({ id, data: { name, description, message, photoUrl } }) =>
+            {posts.map(({ id, data: { name, description, message, photoUrl, likePosts } }) =>
                 <Post
                     key={id}
                     name={name}
                     description={description}
                     message={message}
                     photoUrl={photoUrl}
+                    likePosts={likePosts}
                 />
             )}
             </FlipMove>

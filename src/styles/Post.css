@@ -34,3 +34,8 @@
     word-wrap: break-word;         
     overflow-wrap: break-word;
 }
+
+.post__comentario{
+    display: block;
+    
+}

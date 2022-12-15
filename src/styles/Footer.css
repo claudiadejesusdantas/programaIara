@@ -8,6 +8,7 @@
     background-color: var(--azulClaro);
     border-top: 0.1px solid var(--primeira);
     text-decoration: none;
+    margin-top: 10px;
 }
 
 .rodape > a{
