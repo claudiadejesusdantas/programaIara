@@ -24,11 +24,11 @@ const Curso = forwardRef(({name, description, message, photoUrl}, ref) => {
                 </ReactLinkify>
             </div>
 
-            <div className='curso__buttons'>
+            {/* <div className='curso__buttons'>
                 <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)"/>
                 <InputOption Icon={InsertCommentIcon} title="Comentar" color="var(--cinza)"/>
                 <InputOption Icon={ShareIcon} title="Compartilhar" color="var(--cinza)"/>
-            </div>
+            </div> */}
         </div>
     )
 })
