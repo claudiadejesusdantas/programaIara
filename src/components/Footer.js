@@ -5,7 +5,7 @@ function Footer(){
     return(
         <div>
             <footer className='rodape'>&copy;
-                Desenvolvido por <a href="https://github.com/claudiadejesusdantas" target="_black" >Claudia de Jesus Dantas</a> 🧜‍♀️.
+                Desenvolvido por <a href="https://github.com/claudiadejesusdantas" target="_black" > Claudia de Jesus Dantas</a> 🧜‍♀️.
             </footer>
         </div>
     )

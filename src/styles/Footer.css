@@ -1,8 +1,7 @@
 .rodape{
+    display: flex;
+    justify-content: center;
     color: var(--cinza);
-    width: 100%;
-    display: block;
-    text-align: center;
     padding: 10px;
     font-size: 1em;
     background-color: var(--azulClaro);
