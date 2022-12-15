@@ -9,14 +9,16 @@ import '../styles/InputOptio__like.css'
 
 const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
 
+    //CURTIDAS
     const [likeCounter, setLikeCounter] = useState(0);
     // const [like, setLike] = useState('');
-    
 
     // Função de curtir postagem
     function curtirPost(){
         setLikeCounter(likeCounter+1);
-    }
+    }   
+
+    //COMENTÁRIOS
 
     return (
         <div ref={ref} className='post'>
