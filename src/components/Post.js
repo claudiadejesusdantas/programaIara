@@ -7,7 +7,7 @@ import '../styles/Post.css'
 import '../styles/InputOption__like.css'
 import Comment from './Comment';
 
-const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
+const Post = forwardRef(({id, key, name, description, message, photoUrl}, ref) => {
 
     //CURTIDAS
     const [likeCounter, setLikeCounter] = useState(0);
@@ -17,8 +17,6 @@ const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
     function curtirPost(){
         setLikeCounter(likeCounter+1);
     }   
-
-    //COMENTÁRIOS
 
     return (
         <div ref={ref} className='post'>
@@ -43,10 +41,8 @@ const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
                         {likeCounter}
                     </div>
                 </button>
-
-                <Comment/>
-                
             </div>
+            <Comment postId={id}/>
         </div>
     )
 })

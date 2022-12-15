@@ -1,4 +1,4 @@
-.comment{
+.comments{
     display: flex;
 }
 
@@ -39,4 +39,12 @@
     border-bottom: 2px solid var(--sexta) ;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+
+.message__comment{
+    background-color: var(--branco);
+    margin: 5px;
+
 }
