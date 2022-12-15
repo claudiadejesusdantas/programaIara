@@ -8,9 +8,12 @@ import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 
 function Feed() {
+    
     const user = useSelector(selectUser);
     const [input, setInput] = useState('');
     const [posts, setPosts] = useState([]);
+    const [comments, setComments] = useState('');
+    const [newCommentText, setNewCommentText] = useState('');
 
     useEffect(() => {
         db.collection("posts").orderBy('timestamp', 'desc').onSnapshot((snapshot) =>
