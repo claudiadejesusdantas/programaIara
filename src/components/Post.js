@@ -3,9 +3,9 @@ import React, {forwardRef, useState} from 'react'
 import ReactLinkify from 'react-linkify';
 import InputOption from './InputOption'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import '../styles/Post.css'
-import '../styles/InputOptio__like.css'
+import '../styles/InputOption__like.css'
+import Comment from './Comment';
 
 const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
 
@@ -43,7 +43,9 @@ const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
                         {likeCounter}
                     </div>
                 </button>
-                <InputOption Icon={InsertCommentIcon} title="Comentar" color="var(--cinza)"/>
+
+                <Comment/>
+                
             </div>
         </div>
     )
