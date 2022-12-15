@@ -12,8 +12,6 @@ function Feed() {
     const user = useSelector(selectUser);
     const [input, setInput] = useState('');
     const [posts, setPosts] = useState([]);
-    const [comments, setComments] = useState('');
-    const [newCommentText, setNewCommentText] = useState('');
 
     useEffect(() => {
         db.collection("posts").orderBy('timestamp', 'desc').onSnapshot((snapshot) =>
@@ -54,6 +52,7 @@ function Feed() {
             {posts.map(({ id, data: { name, description, message, photoUrl } }) =>
                 <Post
                     key={id}
+                    id={id}
                     name={name}
                     description={description}
                     message={message}
