@@ -34,15 +34,17 @@ const Post = forwardRef(({id, key, name, description, message, photoUrl}, ref) =
                 </ReactLinkify>
             </div>
 
-            <div className='post__buttons'>
+            <div className='container__buttons'>
                 <button className='button__like' onClick={curtirPost}>
                     <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)"/>
                     <div className='likeCounter'>
                         {likeCounter}
                     </div>
                 </button>
+            <div>
+                <Comment postId={id}/>
             </div>
-            <Comment postId={id}/>
+            </div>
         </div>
     )
 })

@@ -4,6 +4,10 @@
     color: var(--cinza);
 }
 
+.container__buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 .inputOption >h4 {
