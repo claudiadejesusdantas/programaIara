@@ -1,13 +1,23 @@
 import { Avatar } from '@mui/material'
-import React, {forwardRef} from 'react'
+import React, {forwardRef, useState} from 'react'
+import ReactLinkify from 'react-linkify';
 import InputOption from './InputOption'
-import '../styles/Post.css'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
-import ShareIcon from '@mui/icons-material/Share';
-import ReactLinkify from 'react-linkify';
+import '../styles/Post.css'
+import '../styles/InputOptio__like.css'
 
 const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
+
+    const [likeCounter, setLikeCounter] = useState(0);
+    // const [like, setLike] = useState('');
+    
+
+    // Função de curtir postagem
+    function curtirPost(){
+        setLikeCounter(likeCounter+1);
+    }
+
     return (
         <div ref={ref} className='post'>
             <div className='post__header'>
@@ -25,9 +35,13 @@ const Post = forwardRef(({name, description, message, photoUrl}, ref) => {
             </div>
 
             <div className='post__buttons'>
-                <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)"/>
+                <button className='button__like' onClick={curtirPost}>
+                    <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)"/>
+                    <div className='likeCounter'>
+                        {likeCounter}
+                    </div>
+                </button>
                 <InputOption Icon={InsertCommentIcon} title="Comentar" color="var(--cinza)"/>
-                <InputOption Icon={ShareIcon} title="Compartilhar" color="var(--cinza)"/>
             </div>
         </div>
     )

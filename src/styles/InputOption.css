@@ -1,17 +1,10 @@
 .inputOption {
     display: flex;
     align-items: center;
-    margin-top: 10px;
     color: var(--cinza);
-    padding: 10px;
 }
 
-.inputOption:hover{
-    border-left: 1px solid var(--quarta) ;
-    border-bottom: 1px solid var(--sexta) ;
-    border-radius: 10px;
-    cursor: pointer;
-}
+
 
 .inputOption >h4 {
     margin-left: 5px;

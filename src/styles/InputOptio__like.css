@@ -1,0 +1,22 @@
+.button__like{
+    align-items: center;
+    background-color: var(--branco);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    height: 55px;
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.likeCounter{
+    padding: 5px;
+}
+
+.button__like:hover{
+    border-left: 2px solid var(--quarta) ;
+    border-bottom: 2px solid var(--sexta) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
