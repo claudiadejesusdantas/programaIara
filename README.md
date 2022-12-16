@@ -1,8 +1,9 @@
 # Programa Iara 🧜‍♀️- Rede social para mulheres na tech
 ## Inclusão de vagas afirmativas, cursos e sororidade em um só lugar
 
-Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online mulheres da área de tecnologia, que buscam vagas, cursos e outras amigas para conversar sobre essa área fantástica. Se encantem com o canto da sereia e navegue nesse site incrível! 
+![Tela Inicial](https://i.pinimg.com/originals/31/c2/f6/31c2f61a368139ac11c764452a48a534.jpg)
 
+Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online mulheres da área de tecnologia, que buscam vagas, cursos e outras amigas para conversar sobre essa área fantástica. Se encantem com o canto da sereia e navegue nesse site incrível! 
 
 ## Índice
 
@@ -19,8 +20,8 @@ Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online
    - Introdução ao Create React App e Redux
 - Desenvolvimento contínuo
 - Recursos úteis 
-- Autora
 - Saber mais
+- Autora
 
 
 ## Visão geral
@@ -39,28 +40,33 @@ As usuárias poderão:
 - Postar no feed da rede cursos, trabalhos e sobre a pessoa para gerar networking.
 
 
-### Captura de tela
+### Capturas de tela 
 
-![Tela Inicial](https://i.pinimg.com/originals/31/c2/f6/31c2f61a368139ac11c764452a48a534.jpg)
 ![Home](https://i.pinimg.com/originals/db/46/00/db46000a3d91760dcaff74dc3a961833.jpg)
 ![Cursos](https://i.pinimg.com/originals/f1/92/06/f19206f4d88a76faef8e75dba604a16e.jpg)
 ![Vagas](https://i.pinimg.com/originals/25/6d/b0/256db02823d347f2eb3d3731e4ad3c37.jpg)
 ![Network](https://i.pinimg.com/originals/53/49/0b/53490b579ba046e6588d92027e2f2bd9.jpg)
 
 
+![Home](https://i.pinimg.com/564x/44/50/42/4450420c470ff46444330d73c8928998.jpg)
+![Cursos](https://i.pinimg.com/564x/f4/08/10/f408104d910f1ecf67d1fd2d75126070.jpg)
+![Vagas](https://i.pinimg.com/originals/d1/0a/42/d10a426cc51c39515330bb59d39003ef.jpg)
+![Network](https://i.pinimg.com/originals/66/b6/64/66b664f52746ed4066af73084bce45bd.jpg)
+
 ### Links
 
 - Site: [ProgramaIara](https://programaiara.vercel.app/)
+- Site - Vídeo: [ProgramaIara](https://youtu.be/1YK723fXFKA)
 - Vídeo: [Apresentação](https://youtu.be/AdVmRbU4_-o)
 - Vídeo: [Como se cadastrar](https://youtu.be/6mpOp95qApc)
 
 ## Meus desafios
 
-#### Maior desafio
+### Maior desafio
 Exportação do firebase. Mesmo seguindo todos os passos sugestionados pela [documentação](https://firebase.google.com/docs/web/setup) do Firebase, não estava exportando o db e o auth para o feed. 
 Então foi preciso utilizar uma solução do [stackoverflow](https://stackoverflow.com/questions/69044315/module-not-found-cant-resolve-firebase-in).
 
-#### Desafio da identidade visual
+### Desafio da identidade visual
 Construir uma identidade visual para o site, transmitindo sensibilidade, feminilidade e profissionalismo. Pensar no logo e na imagem que transmitisse a característica feminina e forte, como os contos de sereias e escolher a Iara que é uma das personas mais importante do folclore brasileiro e que abraçaria as características mencionadas acima.
 
 <!-- #### Desafio das cores do header
@@ -166,7 +172,9 @@ Algumas melhorias que serão desenvolvidas futuramente:
 
 ( ) Edição de usuário.
 
-( ) Funcionamento dos botões das postagens.
+( ) Inserir nome de usuário no comentário.
+
+( ) Controlar número de curtida por pessoa.
 
 ( ) Filtro para achar postagens (busca no header).
 
@@ -174,12 +182,13 @@ Algumas melhorias que serão desenvolvidas futuramente:
 
 - [Vídeo: Let's build LinkedIn with REACT.JS! (with Redux & Firebase)](https://youtu.be/QaYts9sPmcY) - Isso me ajudou a estruturar os conhecimentos de montagem do React e treinar para criar o projeto.
 
-## Autora
-
-- Desenvolvedora: [Claudia de Jesus Dantas](https://github.com/claudiadejesusdantas)
-
 ## Saber mais
 
 Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
 Para aprender React, confira a [documentação do React](https://reactjs.org/).
+
+## Desenvolvedora do Projeto
+- Desenvolvedora: [Claudia de Jesus Dantas](https://www.instagram.com/claudiadejesusdantastudy/)
+
+![Claudia de Jesus Dantas](https://media2.giphy.com/media/rVMwFhvflvxAc/giphy.gif?cid=ecf05e47jet4flvkfuam4im7dh9lijrtbkveodqxh36a0gq6&rid=giphy.gif&ct=g)
