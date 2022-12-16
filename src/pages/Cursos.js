@@ -39,33 +39,43 @@ function Cursos() {
     };
 
     return (
-        <div className='cursos'>
-            <div className='cursos_inputContainer'>
-                <div className='cursos__input'>
-                    <CreateIcon />
-                    <form>
-                        <input placeholder='Aqui podemos colocar cursos, bootcamps, artigos...tudo para aprendermos mais!
-' value={input} onChange={e => setInput(e.target.value)} type="text" />
-                        <button onClick={sendPost} type="submit"> Enviar </button>
-                    </form>
+        <div className='app__body'>
+            <div className='cursos'>
+                
+                <div className='cursos_inputContainer'>
+                    <div className='container__cabecalhoCursos'>
+                            <img className='imgCursos' src='../assets/undraw_studying_re_deca.svg' alt='Ilustração de moça olhando pela janela com blusa azul, caderno, xícara e laptop.' />
+                        
+                        <div className='cursos__input'>
+                            <CreateIcon />
+                            <form>
+                                <input placeholder='Aqui podemos colocar cursos, bootcamps, artigos...tudo para aprendermos mais!
+    ' value={input} onChange={e => setInput(e.target.value)} type="text" />
+                                <button onClick={sendPost} type="submit"> Enviar </button>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div className='cursos__inputOptions'>
+                        <InputOption Icon={LocalLibraryIcon} title='Cursos' color="var(--cursos)" />
+                    </div>
                 </div>
 
-                <div className='cursos__inputOptions'>
-                    <InputOption Icon={LocalLibraryIcon} title='Cursos' color="var(--cursos)" />
-                </div>
+
+
+                <FlipMove>
+                    {cursos.map(({ id, data: { name, description, message, photoUrl } }) =>
+                        <Curso
+                            key={id}
+                            name={name}
+                            description={description}
+                            message={message}
+                            photoUrl={photoUrl}
+                        />
+                    )}
+                </FlipMove>
             </div>
-
-            <FlipMove>
-            {cursos.map(({ id, data: { name, description, message, photoUrl } }) =>
-                <Curso
-                    key={id}
-                    name={name}
-                    description={description}
-                    message={message}
-                    photoUrl={photoUrl}
-                />
-            )}
-            </FlipMove>
         </div>
     )
 }
