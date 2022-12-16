@@ -1,6 +1,7 @@
 .vagas {
     padding: 20 0px;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .vagas__inputContainer {
@@ -11,15 +12,23 @@
     padding-bottom: 20px;
 }
 
+.container__cabecalhoVagas{
+    display: flex;
+    justify-content: space-between;
+}
+
 .vagas__input {
+    display: flex;
     background-color: var(--branco);
-    margin: 10px;
+    margin: 20px;
     border: 1px solid var(--terceira);
     border-radius: 30px;
     display: flex;
     padding: 10px;
     color: var(--cinza);
     padding-left: 15px;
+    width: 70%;
+    height: 200px;
 }
 
 .vagas__input>form {
@@ -28,12 +37,16 @@
 }
 
 .vagas__input>form>input {
-    background-color: var(--branco);
+    background-color: var(--vagas);
     border: none;
-    flex: 1;
+    width: 100%;
+    font-weight: 600;
     margin-left: 10px;
     outline-width: 0;
-    font-weight: 600;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border-radius: 15px;
 }
 
 .vagas__input>form>button {
@@ -43,4 +56,12 @@
 .vagas__inputOptions {
     display: flex;
     justify-content: center;
+}
+
+.imgVagas{
+    display: flex;
+    width: 200px !important;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 50%;
 }
