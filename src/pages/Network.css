@@ -1,6 +1,7 @@
 .network {
     padding: 20 0px;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .network__inputContainer {
@@ -11,15 +12,23 @@
     padding-bottom: 20px;
 }
 
+.container__cabecalhoNetwork{
+    display: flex;
+    justify-content: space-between;
+}
+
 .network__input {
+    display: flex;
     background-color: var(--branco);
-    margin: 10px;
+    margin: 20px;
     border: 1px solid var(--terceira);
     border-radius: 30px;
     display: flex;
     padding: 10px;
     color: var(--cinza);
     padding-left: 15px;
+    width: 70%;
+    height: 200px;
 }
 
 .network__input>form {
@@ -28,12 +37,16 @@
 }
 
 .network__input>form>input {
-    background-color: var(--branco);
+    background-color: var(--network);
     border: none;
-    flex: 1;
+    width: 100%;
+    font-weight: 600;
     margin-left: 10px;
     outline-width: 0;
-    font-weight: 600;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border-radius: 15px;
 }
 
 .network__input>form>button {
@@ -43,4 +56,12 @@
 .network__inputOptions {
     display: flex;
     justify-content: center;
+}
+
+.imgNetwork{
+    display: flex;
+    width: 200px !important;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 50%;
 }
