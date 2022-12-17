@@ -54,8 +54,8 @@ As usuárias poderão:
 ![Network](https://i.pinimg.com/originals/53/49/0b/53490b579ba046e6588d92027e2f2bd9.jpg)
 
 
-![Home](https://i.pinimg.com/564x/44/50/42/4450420c470ff46444330d73c8928998.jpg)
-![Cursos](https://i.pinimg.com/564x/f4/08/10/f408104d910f1ecf67d1fd2d75126070.jpg)
+![Home](https://i.pinimg.com/originals/44/50/42/4450420c470ff46444330d73c8928998.jpg)
+![Cursos](https://i.pinimg.com/originals/f4/08/10/f408104d910f1ecf67d1fd2d75126070.jpg)
 ![Vagas](https://i.pinimg.com/originals/d1/0a/42/d10a426cc51c39515330bb59d39003ef.jpg)
 ![Network](https://i.pinimg.com/originals/66/b6/64/66b664f52746ed4066af73084bce45bd.jpg)
 
