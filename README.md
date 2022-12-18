@@ -7,7 +7,6 @@ Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online
 
 ## Índice
 
-- Desenvolvedora
 - Visão geral
    - O desafio
    - Captura de tela
@@ -22,12 +21,10 @@ Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online
 - Desenvolvimento contínuo
 - Recursos úteis 
 - Saber mais
+- Desenvolvedora
 
 
-## Desenvolvedora do Projeto
-- Desenvolvedora: [Claudia de Jesus Dantas](https://www.instagram.com/claudiadejesusdantastudy/)
 
-![Claudia de Jesus Dantas](https://media2.giphy.com/media/rVMwFhvflvxAc/giphy.gif?cid=ecf05e47jet4flvkfuam4im7dh9lijrtbkveodqxh36a0gq6&rid=giphy.gif&ct=g)
 
 
 ## Visão geral
@@ -167,6 +164,7 @@ Você nunca precisa usar `eject`. O conjunto de recursos selecionados é adequad
 
 # Desenvolvimento contínuo
 Algumas melhorias que serão desenvolvidas futuramente:
+( )Tornar o layout responsivo para mobile.
 
 ( ) Confirmação de dados cadastrais.
    
@@ -194,4 +192,7 @@ Você pode aprender mais na [documentação do Create React App](https://faceboo
 
 Para aprender React, confira a [documentação do React](https://reactjs.org/).
 
+## Desenvolvedora do Projeto
+- Desenvolvedora: [Claudia de Jesus Dantas](https://www.instagram.com/claudiadejesusdantastudy/)
 
+![Claudia de Jesus Dantas](https://media2.giphy.com/media/rVMwFhvflvxAc/giphy.gif?cid=ecf05e47jet4flvkfuam4im7dh9lijrtbkveodqxh36a0gq6&rid=giphy.gif&ct=g)
