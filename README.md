@@ -164,6 +164,8 @@ Você nunca precisa usar `eject`. O conjunto de recursos selecionados é adequad
 
 # Desenvolvimento contínuo
 Algumas melhorias que serão desenvolvidas futuramente:
+
+
 ( )Tornar o layout responsivo para mobile.
 
 ( ) Confirmação de dados cadastrais.
