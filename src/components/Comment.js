@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
 import { Avatar } from '@mui/material'
+import TextareaAutosize from 'react-textarea-autosize';
 
 function Comment(props) {
 
@@ -52,14 +53,20 @@ function Comment(props) {
                 </div>
 
                 <div>
-                    <input
+                    {/* <input
                         type="text"
                         className='container__comment'
                         placeholder='Digite o seu comentário aqui.'
                         value={newCommentText}
                         onChange={e => setNewCommentText(e.target.value)}
                     >
-                    </input>
+                    </input> */}
+                    <TextareaAutosize 
+                        maxRows="10" 
+                        placeholder='Digite o seu comentário aqui.'                  className='container__comment' 
+                        value={newCommentText}
+                        onChange={e => setNewCommentText(e.target.value)} 
+                    />
                 </div>
             </form>
             <div className='box__comment'>

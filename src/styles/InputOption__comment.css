@@ -35,17 +35,13 @@
 }
 
 .container__comment{
-    height: 60%;
     width: 100%;
     border: none;
     margin: 0 5px 0 15px;
     border-radius: 10px;
     padding: 10px;
     color: var(--cinza);
-    max-width: 190px;
-    min-width: 130px;
-    max-height: 40px;
-    min-height: 32px;
+    resize: none;
 }
 
 .container__comment:hover{
@@ -68,4 +64,6 @@
     margin: 0px 5px 5px 5px;
     padding: 0.5rem;
     width: 100%;
+    word-wrap: anywhere;         
+    overflow-wrap: anywhere;
 }
