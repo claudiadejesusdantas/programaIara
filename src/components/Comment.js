@@ -6,8 +6,9 @@ import { db } from '../firebase';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import FlipMove from 'react-flip-move';
+import { Avatar } from '@mui/material'
 
-function Comment(props){
+function Comment(props) {
 
     const user = useSelector(selectUser);
     const [newCommentText, setNewCommentText] = useState('');
@@ -64,7 +65,16 @@ function Comment(props){
             <div className='box__comment'>
                 <FlipMove>
                     {comments.map(({ id, data: { name, description, message, photoUrl } }) =>
+                    <>
+                        <div className='container__headComment'>
+                            <Avatar src={photoUrl}>{!name ? "?" : name[0]}</Avatar>
+                            <div className='post__info'>
+                                <h2>{name}</h2>
+                                <p>{description}</p>
+                            </div>
+                        </div>
                         <p className='message__comment'>{message}</p>
+                    </>
                     )}
                 </FlipMove>
             </div>

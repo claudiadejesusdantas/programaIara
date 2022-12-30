@@ -1,5 +1,5 @@
 import { Avatar } from '@mui/material'
-import React, {forwardRef, useEffect, useState} from 'react'
+import React, { forwardRef, useEffect, useState } from 'react'
 import ReactLinkify from 'react-linkify';
 import InputOption from './InputOption'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
@@ -8,9 +8,9 @@ import '../styles/InputOption__like.css'
 import Comment from './Comment';
 import { db } from '../firebase';
 
-const Post = forwardRef(({id, key, name, description, message, photoUrl, likes}, ref) => {
+const Post = forwardRef(({ id, key, name, description, message, photoUrl, likes }, ref) => {
 
-    useEffect(()=>{
+    useEffect(() => {
         setLikeCounter(likes ? likes : 0)
     })
 
@@ -18,18 +18,18 @@ const Post = forwardRef(({id, key, name, description, message, photoUrl, likes},
     const [likeCounter, setLikeCounter] = useState(0);
     // const [like, setLike] = useState('');
 
-    
+
     // Função de curtir postagem
-    function curtirPost(){
-        let newConter = likeCounter + 1; 
-        
+    function curtirPost() {
+        let newConter = likeCounter + 1;
+
         setLikeCounter(newConter);
         console.log(id);
         db.collection("posts").doc(id).update({
-            likeCounter:newConter
+            likeCounter: newConter
         })
-    }   
-    
+    }
+
 
 
     return (
@@ -43,21 +43,21 @@ const Post = forwardRef(({id, key, name, description, message, photoUrl, likes},
             </div>
 
             <div className='post__body'>
-                <ReactLinkify componentDecorator={(decoratedHref, decoratedText, key) => ( <a target="blank" href={decoratedHref} key={key}> {decoratedText} </a> )}> 
+                <ReactLinkify componentDecorator={(decoratedHref, decoratedText, key) => (<a target="blank" href={decoratedHref} key={key}> {decoratedText} </a>)}>
                     <p>{message}</p>
                 </ReactLinkify>
             </div>
 
             <div className='container__buttons'>
                 <button className='button__like' onClick={curtirPost}>
-                    <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)"/>
+                    <InputOption Icon={ThumbUpIcon} title="Gostei" color="var(--cinza)" />
                     <div className='likeCounter'>
                         {likeCounter}
                     </div>
                 </button>
-            <div>
-                <Comment postId={id}/>
-            </div>
+                <div>
+                    <Comment postId={id} />
+                </div>
             </div>
         </div>
     )
