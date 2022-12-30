@@ -1,22 +1,36 @@
 import { Avatar } from '@mui/material'
-import React, {forwardRef, useState} from 'react'
+import React, {forwardRef, useEffect, useState} from 'react'
 import ReactLinkify from 'react-linkify';
 import InputOption from './InputOption'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import '../styles/Post.css'
 import '../styles/InputOption__like.css'
 import Comment from './Comment';
+import { db } from '../firebase';
 
-const Post = forwardRef(({id, key, name, description, message, photoUrl}, ref) => {
+const Post = forwardRef(({id, key, name, description, message, photoUrl, likes}, ref) => {
+
+    useEffect(()=>{
+        setLikeCounter(likes ? likes : 0)
+    })
 
     //CURTIDAS
     const [likeCounter, setLikeCounter] = useState(0);
     // const [like, setLike] = useState('');
 
+    
     // Função de curtir postagem
     function curtirPost(){
-        setLikeCounter(likeCounter+1);
+        let newConter = likeCounter + 1; 
+        
+        setLikeCounter(newConter);
+        console.log(id);
+        db.collection("posts").doc(id).update({
+            likeCounter:newConter
+        })
     }   
+    
+
 
     return (
         <div ref={ref} className='post'>
