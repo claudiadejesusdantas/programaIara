@@ -3,6 +3,8 @@ import React, { forwardRef, useEffect, useState } from 'react'
 import ReactLinkify from 'react-linkify';
 import InputOption from './InputOption'
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import InsertCommentIcon from '@mui/icons-material/InsertComment';
+import Close from '@mui/icons-material/Close';
 import '../styles/Post.css'
 import '../styles/InputOption__like.css'
 import Comment from './Comment';
@@ -17,6 +19,8 @@ const Post = forwardRef(({ id, key, name, description, message, photoUrl, likes 
     //CURTIDAS
     const [likeCounter, setLikeCounter] = useState(0);
     // const [like, setLike] = useState('');
+    const [commentsVisible, setCommentsVisible] = useState(false)
+    // const [buttonToggleText, setButtonToggleText] = useState('Comentar')
 
 
     // Função de curtir postagem
@@ -28,6 +32,11 @@ const Post = forwardRef(({ id, key, name, description, message, photoUrl, likes 
         db.collection("posts").doc(id).update({
             likeCounter: newConter
         })
+    }
+
+    function toggleComments()
+    {
+        setCommentsVisible(!commentsVisible)
     }
 
 
@@ -55,9 +64,27 @@ const Post = forwardRef(({ id, key, name, description, message, photoUrl, likes 
                         {likeCounter}
                     </div>
                 </button>
+                
                 <div>
+                    {commentsVisible &&
                     <Comment postId={id} />
+                    }
                 </div>
+
+                <div>
+                    {!commentsVisible &&
+                    <button className='button__like' onClick={toggleComments}>
+                        <InputOption Icon={InsertCommentIcon} title="Comentar" color="var(--cinza)" />
+                    </button>
+                    }
+
+                    {commentsVisible &&
+                    <button className='button__like' onClick={toggleComments}>
+                        <InputOption Icon={Close} title="" color="var(--sexta)" />
+                    </button>
+                    }
+                </div>
+                
             </div>
         </div>
     )
