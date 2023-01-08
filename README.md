@@ -1,7 +1,7 @@
 # Programa Iara 🧜‍♀️- Rede social para mulheres na tech
 ## Inclusão de vagas afirmativas, cursos e sororidade em um só lugar
 
-![Tela Inicial](https://i.pinimg.com/originals/31/c2/f6/31c2f61a368139ac11c764452a48a534.jpg)
+![Tela Inicial](https://media4.giphy.com/media/WcIgQ1TM5p7oennz0H/giphy.gif?cid=790b761180a7d2c90207f07bc869b158d0405c8fc1982151&rid=giphy.gif&ct=g)
 
 Esta plataforma foi desenvolvida com o intuito de unir em um só ambiente online mulheres da área de tecnologia, que buscam vagas, cursos e outras amigas para conversar sobre essa área fantástica. Se encantem com o canto da sereia e navegue nesse site incrível! 
 
@@ -178,7 +178,7 @@ Algumas melhorias que serão desenvolvidas futuramente:
 
 ( ) Edição de usuário.
 
-( ) Inserir nome de usuário no comentário.
+(X) Inserir nome de usuário no comentário.
 
 ( ) Controlar número de curtida por pessoa.
 
