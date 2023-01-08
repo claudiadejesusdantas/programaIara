@@ -197,4 +197,4 @@ Para aprender React, confira a [documentação do React](https://reactjs.org/).
 ## Desenvolvedora do Projeto
 - Desenvolvedora: [Claudia de Jesus Dantas](https://www.instagram.com/claudiadejesusdantastudy/)
 
-![Claudia de Jesus Dantas](https://media2.giphy.com/media/rVMwFhvflvxAc/giphy.gif?cid=ecf05e47jet4flvkfuam4im7dh9lijrtbkveodqxh36a0gq6&rid=giphy.gif&ct=g)
+![Claudia de Jesus Dantas](https://media3.giphy.com/media/G7Iu1mOoI0LdJdYt3l/giphy.gif?cid=790b761139f294517b224a5306947b09f3004b992c4e484e&rid=giphy.gif&ct=g)
