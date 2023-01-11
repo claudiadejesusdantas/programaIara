@@ -94,17 +94,19 @@ const proudOfThisFunc = () => {
 
 
 
-## Construído com
+## Tecnologias usadas
 
 - HTML5 
 - CSS3
 - Flexbox 
 - Biblioteca JS
 - [React Redux](https://react-redux.js.org/) 
+- [NodeJS](https://nodejs.org/en/)
 - [Material UI](https://mui.com/core/)
 - [React Flip Move](https://www.npmjs.com/package/react-flip-move)
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
-- [React Linkify](https://www.npmjs.com/package/react-linkify)
+- [React Linkify](https://www.npmjs.com/package/react-linkify) - Para tornar os links clicáveis dentro das postagens.
+- Firebase(https://firebase.google.com/) 
 - [The Markdown Guide](https://www.markdownguide.org/)
 
 # Introdução ao Create React App e Redux
